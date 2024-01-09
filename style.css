@@ -1,0 +1,356 @@
+/* GLOBAL CSS STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+button {
+    background-color: #F00;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 11px;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.common-color {
+    color: #F00;
+}
+
+/* SECTION BANNER CSS STYLES */
+
+#banner {
+    background: linear-gradient(180deg, rgb(7, 2, 17) 0%, rgba(7, 2, 17,0) 100%), url('images/banner-image.png') no-repeat;
+    border-radius: 15px;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+    margin: 50px 14px;
+}
+
+.banner-info {
+    padding: 195px 344px;
+}
+
+.banner-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.banner-celebration {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* SECTION SIXTYFIVE OFF CSS STYLES */
+
+#sixtyfive-off {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 120px 39px;
+}
+
+.discount-offer {
+    font-size: 88px;
+    color: #F00;
+}
+
+.hoiday-deal {
+    margin-top: 21px;
+    font-size: 23px;
+}
+
+.category {
+    margin-top: 10px;
+    font-size: 47px;
+}
+
+.offer img {
+    width: 750px;
+    margin: 38px;
+}
+
+/* SECTION SIXTYFIVE OFF CSS STYLES */
+
+#midnight-party {
+    background: linear-gradient(180deg, rgb(7, 2, 17) 0%, rgba(7, 2, 17, 0) 100%), url('images/vectorrr.png') no-repeat;
+    border-radius: 15px;
+    margin: 0 14px 120px;
+    display: flex;
+    align-items: center;
+}
+
+.party-intro {
+    margin: 0 121px;
+}
+
+.title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.80); 
+    font-family: 'Inter', sans-serif;
+    margin-top: 29px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.party-image {
+    margin: 53px 140px 53px 0;
+}
+
+/* SECTION PARTY-SCHDULE CSS STYLES */
+
+#party-schdule {
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 15px;
+    padding: 135px 365px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 60px;
+    margin: 14px;
+}
+
+/* SECTION BEST OFFER CSS STYLES */
+
+.coming-offer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.offer {
+    width: 32%;
+    margin: 0px 44px;
+}
+
+.offer h4 {
+    font-size: 23px;
+    color: #F00;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.offer h1, .offer h2 {
+    font-size: 47px;
+    color: #070211;
+    margin-bottom: 20px;
+}
+
+.offer.year, .offer h2, .offer h4, .offer p {
+    font-family: 'Inter', sans-serif;    
+}
+
+.offer p {
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.offer .grp-celebration {
+    width: 363px;
+    border: 13px solid red;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+.offer img {
+    width: 27%;
+    margin: 0;
+    margin-top: 20px;
+}
+
+/* SECTION HOLIDAY SALES CSS STYLES */
+
+#holiday-sales {
+    text-align: center;
+    margin: 111px 0;
+}
+
+.sale-info {
+    margin: 0 260px;
+}
+
+.sale-info h4 {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.sale-info h1 {
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.sale-info p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sale-image {
+    height: 700px;
+    background: url('images/rectangle-2.png') no-repeat bottom;
+}
+
+.sale-image .gift-box {
+    width: 550px;
+    position: relative;
+    top: 172px;
+    left: 23px;
+}
+
+.sale-image .promoter {
+    position: relative;
+    top: 13px;
+    left: 324px;
+}
+
+.sale-image .off {
+    position: relative;
+    bottom: 40px;
+    right: 262px;
+}
+
+/* SECTION PORTFOLIO CSS STYLES */
+
+#portfolio {
+    margin: 131px 20px;
+}
+
+.portfolio-info {
+    margin-left: 14px;
+}
+
+.portfolio-info h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.portfolio-info h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 13px;
+    color: #070211;
+}
+
+.portfolio-info p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.60);
+    padding-right: 484px;
+    margin-bottom: 22px;
+}
+
+.portfolio-image {
+    margin: 0 14px;
+}
+
+/* SECTION SUBSCRIPTION CSS STYLES */
+
+#subscription {
+    margin: 131px 20px;
+    width: 100%;
+    height: 600px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.newsletter  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.newsletter p {
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.60);
+    margin: 0 245px 20px;
+}
+
+.newsletter #email {
+    width: 350px;
+    height: 50px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    padding: 25px;
+}
+
+.newsletter #btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 125px;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #fff;
+}
+
+/* FOOTER CSS STYLES */
+
+footer {
+    background-color: #070211;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    color: #fff;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address, .contact {
+    margin: 100px 140px 50px;
+}
+
+.address p, .contact p {
+    margin-bottom: 10px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links img {
+    margin: 30px 10px;
+}
+
+.hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 140px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reserved, .unsubcribe {
+    margin: 50px 140px 100px;
+}
